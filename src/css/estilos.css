@@ -75,7 +75,7 @@ body {
 }
 
 .fundo-1 {
-    background: url(../imagens/logo.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)100%), url(../imagens/background-tracer.jpg) no-repeat;
 }
 
 .fundo-2 {

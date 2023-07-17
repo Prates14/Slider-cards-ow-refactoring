@@ -1,0 +1,44 @@
+@media (max-width: 620px) {
+    .cabecalho {
+        font-size: 20px;
+    }
+    
+    .person-slider {
+        padding: 0 10px;
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 52px;
+        height: 52px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-person {
+        height: 520px;
+    }
+
+    .cartao .container-imagem {
+        max-height: 320px;
+    }
+
+    .cartao .container-imagem .imagem-tracer {
+        text-align: center;
+    }
+
+    .cartao .container-imagem .imagem-genji {
+        padding-top: 70px;
+    }
+
+    .cartao .informacoes .nome {
+        max-width: 50%;
+        font-size: 20px;
+    }
+
+    .cartao .informacoes .vida {
+        font-size: 14px;
+    }
+}

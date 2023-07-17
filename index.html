@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto OW</title>
+    <link rel="shortcut icon" href="./src/imagens/logotipo.png" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/logotipo.png" alt="OW" class="logotipo">
+        <h1 class="titulo">overstone</h1>
+    </header>
+
+    <main class="person-slider" id="som">
+        <audio src="./src/audio/Practice_Range_Theme.ogg" id="musica"></audio>
+
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/seta-direita.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-person">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Tracer</h2>
+                    <p class="vida">HP 150</p>
+                </div>
+
+                <div>
+                    <img src="./src/imagens/tracer.png" alt="Tracer" class="imagem-main">
+                    <audio src="./src/audio/voice-tracer.mpeg" id="audio-1"></audio>
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Não se preocupem queridos! A CAVALARIA CHEGOOU!!!!</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Genji</h2>
+                    <p class="vida">HP 200</p>
+                </div>
+
+                <div>
+                    <img src="./src/imagens/genji.webp" alt="Genji" class="imagem-main imagem-genji">
+                    <audio src="./src/audio/voice-genji.mpeg" id="audio-2"></audio>
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Meça duas vezes. Corte uma só!</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Zenyatta</h2>
+                    <p class="vida">HP 225</p>
+                </div>
+
+                <div>
+                    <img src="./src/imagens/zenyatta.webp" alt="Zenyatta" class="imagem-main">
+                    <audio src="./src/audio/voice-zeny.mpeg" id="audio-3"></audio>
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Sinta a TRANQUILIDADE!!!</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta-direita.png" alt="seta avancar">
+        </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

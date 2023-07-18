@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.1)100%), url(../imagens/overwatch.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)100%), url(../imagens/overwatch.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -75,7 +75,7 @@ body {
 }
 
 .fundo-1 {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)100%), url(../imagens/background-tracer.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)100%), url(../imagens/background-tracer.jpg) no-repeat;
 }
 
 .fundo-2 {
@@ -88,7 +88,7 @@ body {
 
 .cartao .informacoes {
     background-color: rgba(179, 177, 185, 0.6);
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 8px 10px;
@@ -144,4 +144,6 @@ body {
     font-family: 'Tektur', cursive;
 }
 
-#audio-start {display: none;}
+#audio-start {
+    display: none;
+}

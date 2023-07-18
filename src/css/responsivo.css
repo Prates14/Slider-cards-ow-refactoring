@@ -2,47 +2,75 @@
     .cabecalho {
         font-size: 20px;
     }
-    
+
     .person-slider {
-        padding: 0 10px;
         gap: 15px;
+        padding: 10px
     }
 
     .btn-seta {
         width: 52px;
         height: 52px;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .btn-seta img {
         width: 40px;
     }
 
-    .lista-person {
-        height: 520px;
-    }
-
-    .cartao .container-imagem {
-        max-height: 320px;
-    }
-
-    .cartao .container-imagem .imagem-tracer {
-        text-align: center;
-    }
-
-    .cartao .container-imagem .imagem-genji {
-        padding-top: 70px;
-    }
-
     .cartao .informacoes .nome {
-        max-width: 50%;
         font-size: 20px;
     }
 
     .cartao .informacoes .vida {
         font-size: 14px;
     }
+}
+
+@media (max-width: 450px) {
+    .lista-person {
+        height: 400px;
+        width: 70%;
+    }
+
+    .btn-seta {
+        width: 22px;
+        height: 150px;
+    }
+
+    .btn-seta img {
+        width: 15px;
+        height: 40px;
+    }
+
+    .cartao .informacoes {
+        max-height: 9%;
+    }
+
+    .cartao .informacoes .nome {
+        font-size: 17px;
+    }
+
+    .cartao .informacoes .vida {
+        font-size: 12px;
+    }
+
+    .cartao .descricao .texto {
+        text-align: center;
+        display: flex;
+        font-size: 13px;
+    }
+
+    .fundo-1 .imagem-main {
+        height: 240px;
+    }
+
+    .fundo-1 .descricao {
+        padding-bottom: 10px;
+    }
+
+    .fundo-1 div:nth-child(2) {
+        margin-top: 6px;
+        height: 240px;
+    }
+
 }

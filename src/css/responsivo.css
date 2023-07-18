@@ -5,7 +5,7 @@
     
     .person-slider {
         padding: 0 10px;
-        gap: 10px;
+        gap: 15px;
     }
 
     .btn-seta {
@@ -15,6 +15,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .btn-seta img {
+        width: 40px;
     }
 
     .lista-person {

@@ -73,4 +73,14 @@
         height: 240px;
     }
 
+    .fundo-1, .fundo-3 {
+        background-size: cover;
+        background-position: calc(-30px);
+    }
+
+    .fundo-2 {
+        background-size: cover;
+        background-position: center center;
+    }
+
 }

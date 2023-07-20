@@ -44,7 +44,9 @@
         padding-top: 40px;
     }
 
-    .fundo-1, .fundo-2, .fundo-3 {
+    .fundo-1,
+    .fundo-2,
+    .fundo-3 {
         background-size: cover;
     }
 
@@ -79,12 +81,6 @@
     }
 }
 
-@media (max-width: 355px) {
-    .fundo-1 .imagem-main {
-        padding-top: 20px;
-    }
-}
-
 @media (max-width: 400px) {
     .cartao .imagem-genji {
         padding-top: 70px;
@@ -92,6 +88,12 @@
 
     .fundo-3 .imagem-main {
         padding-top: 40px;
+    }
+}
+
+@media (max-width: 355px) {
+    .fundo-1 .imagem-main {
+        padding-top: 20px;
     }
 }
 
@@ -109,10 +111,6 @@
     .btn-seta img {
         width: 15px;
         height: 40px;
-    }
-
-    .cartao .informacoes {
-        max-height: 9%;
     }
 
     .cartao .informacoes .nome {
@@ -133,13 +131,13 @@
         height: 240px;
     }
 
-    .fundo-1 .descricao {
-        padding-bottom: 10px;
-    }
-
     .fundo-1 div:nth-child(2) {
         margin-top: 6px;
         height: 240px;
+    }
+
+    .fundo-1 .descricao {
+        padding-bottom: 5px;
     }
 
     .fundo-3 .imagem-main {
@@ -148,18 +146,16 @@
 
     .fundo-1,
     .fundo-3 {
-        background-size: cover;
         background-position: calc(-30px);
     }
 
     .fundo-2 {
-        background-size: cover;
         background-position: center center;
     }
 
 }
 
-@media (max-height: 600px){
+@media (max-height: 600px) {
     .cabecalho {
         padding-top: 15px;
     }

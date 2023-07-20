@@ -26,7 +26,76 @@
     }
 }
 
-@media (max-width: 280px) and (min-height: 590px) {
+@media (max-width: 450px) {
+    .person-slider {
+        justify-content: space-around;
+    }
+
+    .lista-person {
+        height: 410px;
+        width: 52%;
+    }
+
+    .cartao {
+        justify-content: start;
+    }
+
+    .cartao .imagem-genji {
+        padding-top: 40px;
+    }
+
+    .fundo-1, .fundo-2, .fundo-3 {
+        background-size: cover;
+    }
+
+    .cartao .informacoes {
+        gap: 10px;
+    }
+
+    .cartao .informacoes .nome {
+        font-size: 17px;
+    }
+
+    .cartao .informacoes .vida {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .cartao .descricao .texto {
+        text-align: center;
+        display: flex;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .btn-seta {
+        width: 22px;
+        height: 150px;
+    }
+
+    .btn-seta img {
+        width: 15px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 355px) {
+    .fundo-1 .imagem-main {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cartao .imagem-genji {
+        padding-top: 70px;
+    }
+
+    .fundo-3 .imagem-main {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 323px) and (min-width: 271px) and (min-height: 587px) {
     .lista-person {
         height: 400px;
         width: 70%;
@@ -73,7 +142,12 @@
         height: 240px;
     }
 
-    .fundo-1, .fundo-3 {
+    .fundo-3 .imagem-main {
+        padding-top: 20px;
+    }
+
+    .fundo-1,
+    .fundo-3 {
         background-size: cover;
         background-position: calc(-30px);
     }
@@ -83,4 +157,14 @@
         background-position: center center;
     }
 
+}
+
+@media (max-height: 600px){
+    .cabecalho {
+        padding-top: 15px;
+    }
+
+    .person-slider {
+        margin-top: 10px;
+    }
 }
